@@ -1,0 +1,69 @@
+/*Upper logo section*/
+
+#logo1{
+    text-align: center;
+    animation: fadein 3s;
+    
+}
+.imglogo{
+    position: relative;
+    margin-top: -28%;
+    width: 10%;
+    max-width: 350px;
+    left: 0%;
+    animation:spin 4s ;
+    
+}
+
+
+
+#divlogonome{
+    text-align: center;
+}
+
+.nlog{
+    width: 25%;
+    margin-top: -6%;
+    min-width: 250px;
+    animation: fadein 5s;
+    
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 5; }
+}
+
+/*Cards*/
+
+#cards{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+   
+}
+
+
+.imgcards{
+    
+    width: 15%;
+}
+
+
+.labellanding{
+        margin-top: 10px;
+        font-family: poppinsmedium;
+        font-size: 25px;
+
+}
+.parcard{
+
+    margin-top: 10px;
+}
+
+
