@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'poppinsmedium';
-    src: url('/componentes/fonts/poppins/Poppins-Medium.ttf') format('woff2') ;
-    src: url('/componentes/fonts/poppins/Poppins-Medium.ttf') format('woff') ;
+    src: url('Poppins-Medium.ttf') format('woff2') ;
+    src: url('Poppins-Medium.ttf') format('woff') ;
     font-weight: normal;
     font-style: normal;
 }

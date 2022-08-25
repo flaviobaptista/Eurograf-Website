@@ -43,8 +43,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
+    font-size: 18px;
    
 }
 
@@ -57,7 +57,6 @@
 
 .labellanding{
         margin-top: 10px;
-        font-family: poppinsmedium;
         font-size: 25px;
 
 }
@@ -67,3 +66,26 @@
 }
 
 
+@font-face{
+    font-family: 'poppinsmedium';
+    src: url('Poppins-Medium.ttf') format('woff2') ;
+    src: url('Poppins-Medium.ttf') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'poppinslight';
+    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff2') ;
+    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'cocomat';
+    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff2') ;
+    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+}
