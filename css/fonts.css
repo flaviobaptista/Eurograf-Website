@@ -1,23 +1,23 @@
 @font-face{
     font-family: 'poppinsmedium';
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\poppins\Poppins-Medium.ttf') format('woff2') ;
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\poppins\Poppins-Medium.ttf') format('woff') ;
+    src: url('/componentes/fonts/poppins/Poppins-Medium.ttf') format('woff2') ;
+    src: url('/componentes/fonts/poppins/Poppins-Medium.ttf') format('woff') ;
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'poppinslight';
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\poppins\Poppins-Light.ttf') format('woff2') ;
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\poppins\Poppins-Light.ttf') format('woff') ;
+    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff2') ;
+    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff') ;
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'cocomat';
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\cocomat\Cocomat Light-trial.ttf') format('woff2') ;
-    src: url('C:\Users\Flávio\Documents\Repositorio_de_Projétos\Eurograf-Website\componentes\fonts\cocomat\Cocomat Light-trial.ttf') format('woff') ;
+    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff2') ;
+    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff') ;
     font-weight: normal;
     font-style: normal;
 }
