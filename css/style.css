@@ -1,0 +1,25 @@
+body{
+   
+    background-color: #3b0660;
+}
+
+#manutencao{
+    text-align: center;
+    position: relative;
+    
+}
+
+.imgmanutencao{
+    max-width: 90%;
+   
+}
+div{
+    text-align: center;
+    position: relative;
+}
+
+.retor{
+    width: 5%;
+    max-width: 5%;
+
+}

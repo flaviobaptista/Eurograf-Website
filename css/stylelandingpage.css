@@ -1,4 +1,10 @@
-/*Upper logo section*/
+/*------fontes------*/
+
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@300 & display=swap');
+
+
+
+/*------Upper logo section------*/
 
 #logo1{
     text-align: center;
@@ -35,7 +41,53 @@
     to { opacity: 5; }
 }
 
-/*Cards*/
+
+
+
+/*------Botão entrar no site------*/
+
+#button-home{
+    margin-top: 20px;
+    text-align: center;
+    min-width: 250px;
+    
+    font: 'Josefin Sans', sans-serif;
+}
+
+.b1{
+    font-size: 25px;
+    padding: 10px 62px;
+    background: -webkit-linear-gradient(left,#d12d9c, #5ea2ef );
+    color: aliceblue;
+    border-radius: 50px 20px;
+    text-decoration: none;
+    margin-top: 20%;
+    text-align: center;
+    transition-duration: 1s;
+    animation: go-back 1s;
+}
+
+.b1:hover{
+    background: -webkit-linear-gradient(left,#d5b6ff, #9ffdfd );
+    color: #000000;
+    text-decoration: none;
+    border: #9900ff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 213);
+    
+
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+/*------Cards------*/
 
 #cards{
     
@@ -46,6 +98,7 @@
     position: relative;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
    
 }
 
@@ -67,31 +120,3 @@
 
     margin-top: 10px;
 }
-
-
-@font-face{
-    font-family: 'poppinsmedium';
-    src: url('Poppins-Medium.ttf') format('woff2') ;
-    src: url('Poppins-Medium.ttf') format('woff') ;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: 'poppinslight';
-    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff2') ;
-    src: url('/componentes/fonts/poppins/Poppins-Light.ttf') format('woff') ;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: 'cocomat';
-    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff2') ;
-    src: url('/componentes/fonts/cocomat/Cocomat\ Light-trial.ttf') format('woff') ;
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@300 & display=swap');
