@@ -14,8 +14,8 @@
 .imglogo{
     position: relative;
     margin-top: -28%;
+    align-items: cnter;
     width: 13%;
-    max-width: 350px;
     animation:spin 4s ;
     
 }
@@ -106,8 +106,8 @@
 .parcard{
 
     margin-top: 10px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
