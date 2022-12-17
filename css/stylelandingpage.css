@@ -7,14 +7,14 @@
 /*------Upper logo section------*/
 
 #logo1{
-    text-align: center;
+    
     animation: fadein 3s;
     
 }
 .imglogo{
-    position: relative;
-    margin-top: -28%;
-    align-items: cnter;
+    margin: auto;
+    display: block;
+    margin-top: -19%;
     width: 13%;
     animation:spin 4s ;
     
@@ -24,7 +24,7 @@
 
 #divlogonome{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 180px;
 }
 
 .nlog{
