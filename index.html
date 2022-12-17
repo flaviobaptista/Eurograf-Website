@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eurograf Landing page</title>
-    <link rel="shortcut icon" href="logo_simples.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+
+ <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- CSS da pagina -->
     <link rel="stylesheet" href="css/stylelandingpage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-   
-   
+
+    <title>Eurograf Landing page</title>
+</head>
+
+
 <body>
   <!--Imagem do cabeçalho-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="header.png" class="d-block w-100" alt="cabeçalhods">
-            </div>
-        </div>
-    </div>
 
+   <img src="/img/header.png" class="d-block w-100" alt="cabeçalho">
+      
 <!--Logo circulo-->
    <div id="logo1">
-        <img class="imglogo" src="logo_simples.png" alt="logo simbolo">
+        <img class="imglogo" src="/img/logo2.png" alt="logo simbolo">
    </div>
-
+   
 <!--Logo nome-->
    <div id="divlogonome">
-        <img class="nlog" src="logo_completo3.png" alt="nome Logo">
+        <img class="nlog" src="/img/logo_sem_simbolo.png" alt="nome Logo">
    </div>
 
 <!--Botão entrar no site-->
@@ -39,33 +40,49 @@
 
 
 <!--Cards-->
-   <div id="cards">
+
+    <div class="container-fluid">
+
+        <div class="row ">
+
+            <div class="col-12 col-xl-4 ">
+                <div class="cardit text-center">
+                    <img class="imgcards" src="/img/contact-card.png" alt="cartao de visita">
+                    <h1 class="labellanding">Cartão de visita</h1>
+                    <p class="parcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia omnis quos quis autem sapiente dolorum minus eveniet dolorem provident recusandae est perferendis repellat rerum soluta quasi aut, ipsum a? 
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 ">
+                <div  class="cardit text-center">
+                    <img class="imgcards" src="/img/graphic-tablet.png" alt="identidade visual">
+                    <h1 class="labellanding">Identidade visual</h1>
+                    <p class="parcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab blanditiis molestiae nobis eveniet consectetur molestias odio tempore obcaecati nulla consequuntur assumenda quas quasi voluptatem explicabo voluptate, asperiores officia velit?
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 ">
+                <div class="cardit text-center">
+                    <img class="imgcards" src="/img/new.png" alt="adesivo">
+                    <h1 class="labellanding">Adesivos personalizados</h1>
+                    <p class="parcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil a labore eos quaerat, voluptatem repudiandae ex placeat hic possimus sit pariatur reprehenderit minus asperiores saepe officiis quo enim tenetur.
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+        </div>
     
-        <div class="cardit">
-            <img class="imgcards" src="contact-card.png" alt="">
-                <h1 class="labellanding">Cartão de visita</h1>
-                    <p class="parcard">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.  delectus aliquam deleniti.<br> Veritatis repellat mollitia sed enim, <br>culpa cum libero. Optio, exercitationem <br>quidem quasi adipisci ratione eius minus <br>similique inventore?</p>
-        </div>
-
-        <div  class="cardit">
-            <img class="imgcards" src="graphic-tablet.png" alt="">
-                <h1 class="labellanding">Identidade visual</h1>
-                    <p class="parcard">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.  delectus aliquam deleniti.<br> Veritatis repellat mollitia sed enim, <br>culpa cum libero. Optio, exercitationem <br>quidem quasi adipisci ratione eius minus <br>similique inventore?</p>
-        </div>
-
-        <div class="cardit">
-            <img class="imgcards" src="new.png" alt="">
-                <h1 class="labellanding">Adesivos personalizados</h1>
-                    <p class="parcard">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.  delectus aliquam deleniti.<br> Veritatis repellat mollitia sed enim, <br>culpa cum libero. Optio, exercitationem <br>quidem quasi adipisci ratione eius minus <br>similique inventore?</p>
-        </div>
-
-   </div>
-
-
-
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
+    </div>
 </body>
 </html>

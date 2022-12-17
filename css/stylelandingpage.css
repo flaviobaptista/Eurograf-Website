@@ -14,9 +14,8 @@
 .imglogo{
     position: relative;
     margin-top: -28%;
-    width: 10%;
+    width: 13%;
     max-width: 350px;
-    left: 0%;
     animation:spin 4s ;
     
 }
@@ -25,6 +24,7 @@
 
 #divlogonome{
     text-align: center;
+    margin-top: 10px;
 }
 
 .nlog{
@@ -50,7 +50,6 @@
     margin-top: 20px;
     text-align: center;
     min-width: 250px;
-    
     font: 'Josefin Sans', sans-serif;
 }
 
@@ -89,23 +88,11 @@
   } 
 /*------Cards------*/
 
-#cards{
-    
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-    position: relative;
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 100px;
-   
-}
-
 
 .imgcards{
     
     width: 15%;
+    margin-top: 50px;
 }
 
 
@@ -119,4 +106,17 @@
 .parcard{
 
     margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.h400{
+    height: 400px;
+}
+
+.container-fluid{
+    margin-top: 50px;
+    background: linear-gradient(90deg, #c348d2, #62f9ec);
+    
 }
