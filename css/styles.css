@@ -1,15 +1,19 @@
+
+/*barra Fale com um designer da Eurograf */
 .h60{
-    height: 60px;;
+    height: 65px;;
 }
 
 .btnheader{
     background-color: #ceffd4;
+    margin-top: 10px;
+    margin-left: 10px;
     width: 198px;
     height: 29px;
     border-radius: 13px;
     text-decoration: none;
     color: #8662f9;
-    font-family: sans-serif;
+    font-size: 18px;
     font-weight: bold;
     border: none;
 }
@@ -19,7 +23,24 @@
 }
 
 .txth{
-    font-size: 18px;
-    font-family: sans-serif;
+    
+    font-size: 20px;
     color: rgb(191, 255, 234);
+    font-weight: bold;
+}
+
+/* cabeçalho */
+
+.cabecalho{
+    margin-top: 30px;
+}
+
+.redesociaiscab{
+    width: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.j{
+    background-color: #8662f9;
+    max-width: 100%;
 }
