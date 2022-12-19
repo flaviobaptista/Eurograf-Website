@@ -1,0 +1,25 @@
+.h60{
+    height: 60px;;
+}
+
+.btnheader{
+    background-color: #ceffd4;
+    width: 198px;
+    height: 29px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #8662f9;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.bgh{
+    background: linear-gradient(5deg, #e931ca, #8662f9);
+}
+
+.txth{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(191, 255, 234);
+}
