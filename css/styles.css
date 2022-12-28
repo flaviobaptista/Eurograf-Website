@@ -32,13 +32,23 @@
     margin-top: 30px;
 }
 
+.rds{
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: #8662f9; */
+}
+
 .redesociaiscab{
-    width: 25px;
-    margin: 10px 20px 10px 20px;
+    width: 20px;
+    margin: 10px 10px 10px 10px;
+
 }
 
 .rds{
     margin: auto;
+    display: block;
+    text-align: end;
+    
 }
 
 .j{
@@ -47,21 +57,44 @@
 }
 
 .mg10{
-    margin: 20px 90px 0px 90px;
+    margin: 20px 10px 20px 10px;
+}
+
+/* BARRA PESQUISA */
+
+.fmpi{
+    border-radius: 15px 0px 0px 15px;
+    padding: 5px;
+    border-color: #ae00ff;
+    background-color: #f9f0fd;
+    margin: 0%;
+}
+
+.btfm{
+    background-color: white;
+    border-color:#8662f9 ;
+    border-radius: 0px 20px 20px 0px;
+    padding: 5px;
+    width: 50px;
+    margin: -5px;
 }
 
 /* MENU */
 :hover.nav-item{
     border-radius: 10px;
+    background-color: #ffafde;
+    
 }
 
 .nav-link{
-    color: #e931ca;
+    color: #ff00c8;
     margin: 0px 20px 0px 20px;
+    font-weight: 500;
+    
 }
 :hover.nav-link{
-    color: #ffa9f1;
-
+    color: #ae00ff;
+    
 }
 :focus.nav-link{
     color: rgb(191, 70, 247);
@@ -69,6 +102,7 @@
     
 }
 :hover.dropdown-item{
-    background-color: #8562f979;
-    color: #ff00c8;
+    background-color: #ffafde;
+    color: #ae00ff;
+    font-weight: 500;
 }
