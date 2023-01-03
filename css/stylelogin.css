@@ -129,6 +129,7 @@ body * {
 @media only screen and (max-width: 800px){
     .main-login{
         flex-direction: column;
+        overflow: hidden;
     }
 
     .left-login > h1{
