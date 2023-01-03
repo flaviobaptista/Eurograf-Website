@@ -130,6 +130,7 @@ body * {
     .main-login{
         flex-direction: column;
         overflow: hidden;
+        overflow-y: hidden;
     }
 
     .left-login > h1{
