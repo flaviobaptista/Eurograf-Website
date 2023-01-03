@@ -12,7 +12,7 @@ body * {
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(30deg, #e100ff, #000000, #000000,#e100ff);
+    background: linear-gradient(30deg,#a200ff, #57008a, #000000, rgb(0, 0, 0), #000000, #000000,#57008a, #a200ff);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,15 +100,16 @@ body * {
     font-weight: 500;
     letter-spacing: 5px;
     font-size: 14pt;
-    background-color: rgb(183, 0, 255);
-    color: #00f7ff;
+    background: linear-gradient(30deg, #e100ff,#00ffff);
+    color: #ffffff;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px rgba(230, 181, 250, 0.623);
 }
 
-:hover.btn-login{
-    background: linear-gradient(30deg, #e100ff,#00ffff);
-    color: #ffffff;
+:hover.btn-login {
+    color: #6eeafa;
+    background: #a200ff;
+    font-size: 18pt;
 }
 
 @media only screen and (max-width: 950px){
