@@ -145,6 +145,7 @@ body * {
     }
 
     .left-login-image{
+        margin-top: -50px;
         width: 50%;
     }
 
