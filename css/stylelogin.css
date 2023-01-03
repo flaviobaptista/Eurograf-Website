@@ -115,6 +115,15 @@ body * {
     .card-login{
         width: 100%;
         margin: 10px;
+        font-size: 8pt;
+    }
+
+    .textfield > input {
+        padding: 5px;
+    }
+
+    .btn-login{
+        padding: 5px 0px;
     }
 
     .left-login-image{
@@ -125,7 +134,8 @@ body * {
     }
 
     .right-login img{
-        width: 25%;
+        width: 20%;
+        margin: 10px;
     }
     
 
