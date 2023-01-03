@@ -124,6 +124,12 @@ body * {
         font-size: 18pt;
     }
 
+    .right-login img{
+        width: 30%;
+        height: auto;
+    }
+    
+
 }
 
 @media only screen and (max-width: 800px){
