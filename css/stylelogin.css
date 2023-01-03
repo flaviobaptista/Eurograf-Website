@@ -7,11 +7,7 @@ body * {
 }
 
 
-.right-login img{
-    width: 10vh;
-    height: auto;
-    margin: 0px 0px 30px 0px;
-}
+
 
 .main-login{
     width: 100vw;
@@ -35,28 +31,33 @@ body * {
 .left-login > h1 {
     color: rgb(71, 238, 250);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3vh;
+    font-size: 5vh;
 }
 
 .left-login-image{
-    width: 45vh;
+    width: 55vh;
 }
 
 .right-login{
-    width: 85vw;
+    width: 65vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.right-login img{
+    width: 10vh;
+    height: auto;
+}
+
 .card-login{
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 45px;
+    padding: 15px 35px;
     background-color: #4b2f703f;
     border-radius: 30px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.658);
@@ -69,14 +70,14 @@ body * {
     margin: 0px 10px 10px 10px;}
 
 .textfield{
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     width: 100%;
 }
 .textfield > input {
     width: 100%;
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     background: #362546;
     color: #6ad5ff;
     font-size: 14pt;
@@ -91,7 +92,7 @@ body * {
 
 .btn-login{
     width: 100%;
-    padding: 16px 0px;
+    padding: 14px 0px;
     margin: 25px;
     border: none;
     border-radius: 20px;
@@ -112,11 +113,20 @@ body * {
 
 @media only screen and (max-width: 950px){
     .card-login{
-        width: 70%;
+        width: 100%;
+        margin: 10px;
     }
+
+    .left-login-image{
+        width: 50%;
+    }
+    .left-login > h1{
+        font-size: 18pt;
+    }
+
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
     .main-login{
         flex-direction: column;
     }
@@ -135,11 +145,12 @@ body * {
     }
 
     .left-login-image{
-        width: 30vh;
+        margin-top: px;
+        width: 28%;
     }
 
     .card-login{
-        width: 90%;
-
+        width: 80%;
+        margin-top: 30px;
     }
 }
