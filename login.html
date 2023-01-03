@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style_areadeadm.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
     <title>Login</title>
 </head>
 <body>
-    <section class="loginarea">
-        <div class="login">
-            <div>
-                <img src="img/logo.png" alt="">
-            </div>
-            <form method="post">
-                <input type="text" name="nome" placeholder="Usuario" autofocus>
-                <input type="password" nome="senha" placeholder="Senha">
-                <input type="submit" value="Entrar" >
-            </form>
-            <p>Ainda não tem uma conta? <a href="#">Criar conta</a></p>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça o login <br> Area administrativa</h1>
+            <img src="img/design-stats-animate.svg" class="left-login-image" alt="imagem ilustrada">
         </div>
-    </section>
+        <div class="right-login">
+            <div class="card-login">
+                <img src="img/logo.png" alt="Logo">
+                <h1>LOGIN</h1>
 
+                <div class="textfield">
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">ENTRAR</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
