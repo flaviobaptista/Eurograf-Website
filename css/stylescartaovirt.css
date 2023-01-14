@@ -1,0 +1,129 @@
+body {
+    height: 110vh;
+    background-image: url('/img/backgroud.jpg');
+    background-color: rgb(14, 14, 14);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imglogo {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+
+}
+
+
+
+
+.imgicon {
+    width: 30px;
+}
+
+.linkrs {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    height: 45px;
+}
+
+.cardrsint {
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0), rgba(255, 0, 200, 0.377), rgba(64, 183, 252, 0.747));
+    width: 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    letter-spacing: 5px;
+    color: azure;
+}
+:hover.cardrsint{
+    width: 350px;
+    height: 50px;
+    letter-spacing: 10px;
+    background-color: azure;
+    color: black;
+    transition-duration: 500ms;
+}
+
+.cardrsintimginst {
+
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(162, 0, 255), rgb(177, 23, 23), rgb(255, 145, 2));
+}
+
+.cardrsintimgwhatsapp {
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(115, 255, 0), rgb(23, 177, 36), rgb(2, 255, 179));
+}
+
+.cardrsintimgendere {
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(81, 255, 0), rgb(252, 253, 163), rgb(94, 255, 1));
+}
+
+.cardrsintimgsite {
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(0, 140, 255), #7fe1fa, rgb(2, 175, 255));
+}
+
+.cardrsintimgcarrinho {
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(255, 205, 129), rgb(255, 233, 186), rgb(253, 182, 75));
+}
+
+h1 {
+
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
