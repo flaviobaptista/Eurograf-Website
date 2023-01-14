@@ -1,6 +1,6 @@
 body {
     height: 110vh;
-    background-image: url('img/backgroud.jpg');
+    background-image: url('../img/backgroud.jpg');
     background-color: rgb(14, 14, 14);
     background-size: cover;
     background-position: center center;
