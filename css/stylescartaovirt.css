@@ -1,11 +1,11 @@
 body {
-    height: 110vh;
+    height: 100vh;
    
     background-color: rgb(14, 14, 14);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    overflow: hidden;
+    margin: 0;
 }
 
 .logo {
