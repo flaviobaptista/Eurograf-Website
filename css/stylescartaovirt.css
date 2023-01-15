@@ -1,15 +1,13 @@
 body {
     height: 110vh;
-   
+    margin: 0;
     background-color: rgb(14, 14, 14);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 0;
 }
 
 .logo {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,18 +18,11 @@ body {
     margin-top: 15px;
 }
 
-
-
 .main {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-
-
 }
-
-
-
 
 .imgicon {
     width: 30px;
@@ -60,7 +51,8 @@ body {
     letter-spacing: 5px;
     color: azure;
 }
-:hover.cardrsint{
+
+:hover.cardrsint {
     width: 350px;
     height: 50px;
     letter-spacing: 10px;
@@ -121,7 +113,6 @@ body {
 }
 
 h1 {
-
     font-size: 18px;
     margin-left: 10px;
     text-align: center;
