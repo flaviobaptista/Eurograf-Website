@@ -1,18 +1,15 @@
 body{
     margin: 0;
-
+    background-image: url('../img/backgroud.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
-body * {
-    box-sizing: border-box;
-}
-
-
-
 
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(30deg,#a200ff, #57008a, #000000, rgb(0, 0, 0), #000000, #000000,#57008a, #a200ff);
+    background: linear-gradient(30deg, #47007000, #00000000, #000000a9, #000000);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +46,7 @@ body * {
 .right-login img{
     width: 10vh;
     height: auto;
+    
 }
 
 .card-login{
