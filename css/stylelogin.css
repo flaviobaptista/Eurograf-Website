@@ -159,6 +159,17 @@ body{
         margin: 0px;
     }
 
+    .textfield > input {
+        padding: 6px;
+        font-size: 12pt;
+    }
+
+    .btn-login{
+        width: 40vw;
+        padding: 5px 0px;
+        font-size: 12pt;
+    }
+
     .card-login  h1 {
         color: rgb(253, 78, 195);
         margin: 0px 0px 20px 0px;
