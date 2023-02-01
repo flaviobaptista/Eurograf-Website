@@ -25,7 +25,7 @@
                 <div class="textfield">
                     <input type="password" placeholder="Senha" id="senha">
                 </div>
-                <input class="btn-login" type="submit" onclick="logar()" >
+                <input class="btn-login" type="submit" value="Entrar" onclick="logar()">
             </form>
         </div>
     </div>
@@ -34,6 +34,7 @@
         function logar(){
             let login = document.getElementById('login').value;
             let senha = document.getElementById('senha').value;
+            
 
             if(login == "aprendendojs@dev.com" && senha == "1234"){
                 alert('Login validado com sucesso');
