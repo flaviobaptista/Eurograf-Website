@@ -45,25 +45,30 @@ body {
     align-items: center;
     text-decoration: none;
     color: #ff55c6;
-    border-radius: 30px;
     width: 11vw;
-    height: 50px;
+    height: 30px;
 
 }
 
 .menu a:hover {
-    background: linear-gradient(0deg, rgb(78, 199, 255), rgba(255, 0, 179, 0), rgba(0, 0, 0, 0), rgba(255, 0, 85, 0), rgba(0, 0, 0, 0));
     color: rgb(255, 255, 255);
-    transition-duration: 500ms;
-    border-radius: 10px;
+    transition-duration: 300ms;
     font-size: 28px;
-
+    border-radius: 15px;
+    border: #ff0080 solid 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .menu a:focus {
-    color: aqua;
-    background-color: rgba(0, 0, 0, 0.308);
-    border: solid 1px;
+    color: rgb(119, 255, 175);
+    font-size: 28px;
+    border: #00aeff solid 5px;
+    border-radius: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 
 }
 
@@ -76,7 +81,7 @@ body {
 }
 
 .section-imglogo img {
-    width: 299px; 
+    width: 299px;
 }
 
 /* conteudo da pagina */
@@ -123,7 +128,8 @@ body {
     font-size: 25px;
 }
 
-.btn-wp { /* botão faça um orçamento*/
+.btn-wp {
+    /* botão faça um orçamento*/
     margin: 10px 0px 0px -10px;
     background-color: #00ffdd;
     width: 12vw;
@@ -139,7 +145,9 @@ body {
     font-size: 1.2vw;
     text-transform: uppercase;
 }
-.btn-wp:hover{ /* botão faça um orçamento*/
+
+.btn-wp:hover {
+    /* botão faça um orçamento*/
     background-color: #ff00aa;
     color: #00ffdd;
     transition-duration: 500ms;
@@ -155,7 +163,7 @@ body {
     justify-content: center;
 }
 
-.section-cont-footer{
+.section-cont-footer {
     background-color: #ff55c600;
     margin: 30px;
     width: 500px;
@@ -168,7 +176,7 @@ body {
     align-items: center;
 }
 
-.footer-cont p{
+.footer-cont p {
     font-size: 1.5vw;
     color: aquamarine;
     display: flex;
@@ -177,58 +185,43 @@ body {
 
 }
 
-.rs-footer-icon{
+.rs-footer-icon {
     width: 2.2vw;
     margin: 0px 30px 0px 0px;
 }
 
-.rs-footer{
+.rs-footer {
     width: 2.2vw;
     margin: 30px 30px 0px 0px;
 }
 
-.map{
+.map {
     width: 28.5vw;
     height: 32vh;
 }
 
 .Copyright {
-    text-align: center;  
-    padding: 0px 0px 30px 0px; 
+    text-align: center;
+    padding: 0px 0px 30px 0px;
     font-size: 1.4vw;
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
     .menu {
         height: 100px;
         margin-left: -20px;
     }
+
     .menu-li {
         font-size: 2.5vw;
         margin: 0px 0px 0px 0px;
     }
-    
-    .menu a:hover {
-        background: linear-gradient(0deg, rgba(78, 199, 255, 0), rgba(255, 0, 179, 0), rgba(0, 0, 0, 0));
-        color: rgb(255, 255, 255);
-        transition-duration: 0ms;
-        border-radius: 0px;
-        font-size: 3vw;
-        width: 15vw;
-        height: 7vh;
-    }
-    
-    .menu a:focus {
-        color: rgb(11, 247, 255);
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        
-    }
-    
+
     .section-imglogo {
         justify-content: center;
     }
+
     .section-imglogo img {
         width: 80%;
     }
@@ -239,7 +232,7 @@ body {
         font-size: 2.8vw;
         letter-spacing: 0.4rem;
     }
-    
+
     .txt-cont H2 {
         max-width: 60vw;
         margin: 10px 0px 30px -50px;
@@ -247,14 +240,15 @@ body {
         letter-spacing: 0.3rem;
         text-transform: uppercase;
     }
-    
+
     .txt-cont P {
         margin: 0px 0px 0px -50px;
         color: rgb(235, 255, 143);
         font-size: 2.5vw;
     }
-    
-    .btn-wp { /* botão faça um orçamento*/
+
+    .btn-wp {
+        /* botão faça um orçamento*/
         background-color: #00ffdd;
         width: 15vw;
         height: 6vh;
@@ -264,100 +258,86 @@ body {
         text-transform: uppercase;
     }
 
-    
+
     .footer-cont h1 {
         margin: 10px 0px 0px 0px;
         font-size: 2.2vw;
     }
-    
-    .footer-cont p{
+
+    .footer-cont p {
         font-size: 1.8vw;
         margin: 10px 0px 10px 0px;
-    
+
     }
-    
-    .rs-footer-icon{
+
+    .rs-footer-icon {
         width: 3vw;
         margin: 0px 0px 0px 0px;
     }
-    
-    .rs-footer{
+
+    .rs-footer {
         width: 4vw;
         margin: 10px 5px 0px 0px;
     }
-    
-    .map{
+
+    .map {
         width: 26vw;
         height: 32vh;
     }
 
     .Copyright {
-        text-align: center;  
+        text-align: center;
         font-size: 2vw;
     }
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
     .menu {
         height: 70px;
         margin-left: -30px;
     }
+
     .menu-li {
         margin: 0px 0px 0px 0px;
     }
-    
-    .menu a:hover {
-        background: linear-gradient(0deg, rgb(78, 199, 255), rgba(255, 0, 179, 0), rgba(0, 0, 0, 0), rgba(255, 0, 85, 0), rgba(0, 0, 0, 0));
-        color: rgb(255, 255, 255);
-        transition-duration: 0ms;
-        border-radius: 0px;
-        font-size: 3vw;
-        width: 15vw;
-        height: 7vh;
-    }
-    
-    .menu a:focus {
-        color: rgb(11, 247, 255);
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        
-    }
-    
+
     .section-imglogo img {
         width: 100%;
     }
 
-   .vetorimg{
-    max-width: 80%;
-   }
+    .vetorimg {
+        max-width: 80%;
+    }
 
     .cont-elements {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
-    
+
 
     .txt-cont h1 {
         margin: 0px 0px 0px 0px;
         font-size: 6vw;
         letter-spacing: 0rem;
     }
-    
+
     .txt-cont h2 {
         margin: 0px 0px 0px 0px;
         font-size: 4.5vw;
         letter-spacing: 0rem;
 
     }
-    
+
     .txt-cont P {
         margin: 20px 0px 10px 0px;
         color: rgb(235, 255, 143);
         font-size: 4.5vw;
     }
-    
-    .btn-wp { /* botão faça um orçamento*/
+
+    .btn-wp {
+        /* botão faça um orçamento*/
         background-color: #00ffdd;
         width: 40vw;
         height: 6vh;
@@ -375,7 +355,7 @@ body {
         margin: 20px;
     }
 
-    .section-cont-footer{
+    .section-cont-footer {
         margin: 0px 0px 0px 0px;
         width: 70%;
         text-align: center;
@@ -386,34 +366,33 @@ body {
         font-size: 5vw;
         justify-content: center;
     }
-    
-    .footer-cont p{
+
+    .footer-cont p {
         font-size: 4vw;
         margin: 10px 0px 0px 0px;
         justify-content: center;
     }
-    
-    .rs-footer-icon{
+
+    .rs-footer-icon {
         width: 8vw;
         margin: 0px 0px 0px 0px;
     }
-    
-    .rs-footer{
+
+    .rs-footer {
         width: 9vw;
         margin: 0px 15px 0px 15px;
-        
+
     }
-    
-    .map{
+
+    .map {
         width: 70vw;
         height: 32vh;
     }
 
     .Copyright {
-        text-align: center;  
-        padding: 20px 20px 30px 20px; 
+        text-align: center;
+        padding: 20px 20px 30px 20px;
         font-size: 4vw;
         text-align: justify;
     }
 }
-
