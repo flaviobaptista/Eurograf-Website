@@ -138,10 +138,10 @@ body{
 @media only screen and (max-width: 600px){
     .main-login{
         flex-direction: column;
-        fle
+        
     }
 
-    .left-login > h1{
+    .left-login h1 {
         font-size: 6vw;
     }
     .left-login{
@@ -149,11 +149,10 @@ body{
     }
 
     .left-login-image{
-        width: 100%;
+        width: 80%;
     }
     .right-login{
-        width: 100%;
-        height: 100%;
+        width: 80%;
     }
 
     .right-login img{
@@ -166,5 +165,4 @@ body{
         margin: 0px 0px 20px 0px;
         font-size: 6vw;
     }
-
 }
