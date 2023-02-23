@@ -1,0 +1,138 @@
+body{
+    background-image: url('../img/backgroud.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+/*------fontes------*/
+
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@300 & display=swap');
+
+
+
+/*------Upper logo section------*/
+
+#logo1 {
+
+    animation: fadein 3s;
+
+
+}
+
+.imglogo {
+    margin: auto;
+    display: block;
+    margin-top: -19%;
+    width: 14%;
+    animation: spin 4s;
+
+}
+
+
+
+#divlogonome {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.nlog {
+    max-width: 30%;
+    min-width: 250px;
+    animation: fadein 5s;
+
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 5;
+    }
+}
+
+
+
+
+/*------Botão entrar no site------*/
+
+.b1 {
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    background: -webkit-linear-gradient(left, #c90089, #004a9e);
+    color: rgb(0, 255, 213);
+    border-radius: 50px 20px;
+    text-decoration: none;
+    transition-duration: 1s;
+    animation: go-back 1s;
+    border: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+.b1:hover {
+    background: -webkit-linear-gradient(left, #fa5bc5, #5ff8f8);
+    color: #000000;
+    text-decoration: none;
+    border: #9900ff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 149);
+
+
+}
+
+@keyframes go-back {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/*------Cards------*/
+
+.divcards {
+    margin-top: 30px;
+    background: linear-gradient(90deg, #ad0073, #5503d8);
+}
+
+
+.imgcards {
+
+    width: 70px;
+    margin-top: 30px;
+}
+
+
+.labellanding {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+
+}
+
+.parcard {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13pt;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
