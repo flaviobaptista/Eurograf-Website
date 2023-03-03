@@ -8,7 +8,7 @@
     --color--lightpurple: #a200f9;
     --color--ultralightpurple: #c46cff;
     --color--ultrapink: #ff00c3;
-    --color--lightpink: #e600ff;
+    --color--lightpink: #fc92b2;
     --color--navygreen: #00e3f7;
     --color--lightnavygreen: #b6f9ff;
 }
@@ -50,22 +50,33 @@ header {
 .nav-item a {
     color: var(--color--navygreen);
     /* margin-left: 40px; */
-    font-size: 20px;
+    font-size: 16px;
     border-bottom: 2px solid #00000000;
+}
+.nav-item a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .nav-item{
     text-align: center;
-    width: 8vw;
+    width: 90%;
     margin-left: 20px;
+    transition: all 0.50s;
     border-radius: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+#nav-item{
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--color--navygreen);
+    box-shadow: 0px 9px 20px -15px var(--color--navygreen);
+}
+#nav-item:hover{
     border-bottom: 2px solid var(--color--ultrapink);
     box-shadow: 0px 15px 20px -15px var(--color--ultrapink);
-    transition: all 0.70s;
 }
 
 .nav-item:hover {
-    color: var(--color--ultralightpurple);
     border-radius: 10px;
     border-bottom: 2px solid var(--color--ultrapink);
     box-shadow: 0px 15px 20px -15px var(--color--ultrapink);
@@ -82,32 +93,11 @@ header {
     width: 18vw;
 }
 
-.dropdown-menu {
-    background-color: var(--color--darktransppurple);
-}
 
-.dropdown-item {
-    color: var(--color--navygreen);
-    font-size: 20px;
-    transition: all 0.8s;
-
-}
-
-.dropdown-item:hover {
-    color: white;
-    background-color: var(--color--lightpink);
-    font-weight: 500;
-}
 
 .bi-list {
     color: var(--color--navygreen);
 }
-
-.sep-menu {
-    width: 300px;
-    border: solid 3px;
-}
-
 
 .offcanvas {
     background: rgba(9, 0, 15, 0.945);
@@ -302,6 +292,96 @@ header {
     font-size: 1.4vw;
 }
 
+
+/* Produtos */
+
+/* Sobre */
+
+.content-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    background-color: #0000005b;
+    border-radius: 20px;
+}
+.content-section {
+    padding: 10px; 
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.content-sobre img{
+    width: 500px;
+    border-radius: 20px;
+}
+.content-sobre p{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+/* contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+form section{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+}
+
+form section input{
+    width: 50px;
+}
+form label{
+    color: white;
+}
+
+form input, textarea{
+    width: 70%;
+    border: solid 1px var(--color--navygreen) ;
+    border-radius: 10px;
+    padding: 8px;
+    background: #2b1142;
+    color: #6ad5ff;
+    font-size: 14pt;
+    outline: none;
+}
+form input::placeholder, textarea::placeholder {
+    color: #8a7ab4;
+}
+
+form button {
+    width: 70%;
+    padding: 11px 0px;
+    margin: 20px 0px 30px 0px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 14pt;
+    background: linear-gradient(30deg, #00fff2,#008cff);
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.42s;
+}
+form button:hover {
+    color: #6eeafa;
+    background: #000000c7;
+    box-shadow: 0px 0px 5px 1px hwb(192 46% 0%);
+}
+form button:active{
+    background-color: #95ffbe;
+    color: #000000;
+    box-shadow: 0px 0px 5px 1px #95ffbe;
+}
+
+
 @media only screen and (max-width: 991px) {
     .sectionimglogo {
         width: 60%;
@@ -362,6 +442,33 @@ header {
         text-align: center;
         font-size: 2vw;
     }
+
+
+    /* Sobre */
+
+.content-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.content-section {
+    padding: 10px; 
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.content-sobre img{
+    width: 80%;
+    border-radius: 20px;
+}
+.content-sobre p{
+    font-size: 18px;
+    text-align: justify;
+}
 }
 
 @media only screen and (max-width: 782px) {
@@ -395,7 +502,8 @@ header {
 @media only screen and (max-width: 600px) {
 
     .sectionimglogo {
-        max-width: 70%;
+        max-width: 100%;
+        
     }
 
     .imglogo {

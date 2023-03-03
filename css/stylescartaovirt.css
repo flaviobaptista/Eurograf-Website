@@ -1,7 +1,12 @@
 body {
-    height: 110vh;
     margin: 0;
+    border: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgb(14, 14, 14);
+    background-image: url('../img/backgroud.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -14,7 +19,7 @@ body {
 }
 
 .imglogo {
-    max-width: 100%;
+    max-width: 150px;
     margin-top: 15px;
 }
 
@@ -117,4 +122,29 @@ h1 {
     margin-left: 10px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+footer img{
+    width: 50px; 
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(240, 248, 255); 
+    border-radius: 60px;
+
+}
+
+footer h1{
+    text-align: center; 
+    color: rgb(255, 255, 255);
 }
