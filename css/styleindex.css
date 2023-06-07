@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -15,12 +17,14 @@ body{
 /*------Upper logo section------*/
 
 #logo1 {
-
+    
     animation: fadein 3s;
 
 
 }
-
+.img-header{
+    width: 100%;
+}
 .imglogo {
     margin: auto;
     display: block;
@@ -107,10 +111,25 @@ body{
 /*------Cards------*/
 
 .divcards {
+    position: fixed;
+    bottom: 0;
+    padding: 30px;
     margin-top: 30px;
     background: linear-gradient(90deg, #ad0073, #5503d8);
 }
 
+.content-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .imgcards {
 
