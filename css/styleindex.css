@@ -112,7 +112,6 @@ body{
 /*------Cards------*/
 
 .divcards {
-    position: fixed;
     bottom: 0;
     padding: 30px;
     margin-top: 30px;
